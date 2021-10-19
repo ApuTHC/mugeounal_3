@@ -1,5 +1,6 @@
 $(document).ready(function () {
-
+    
+    $('.btn-group').removeClass("hovered");
     var aux=0;
     setInterval(function () {
         if (aux==0) {

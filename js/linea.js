@@ -3,6 +3,8 @@ $(document).ready(function () {
     footerTop();
     $(".lineamenu").css('padding-right',0);
     $(".lineaindice h4").css('margin-left', '-60px');
+    $('.btn-group').removeClass("hovered");
+    $('#btn_linea').parent().addClass("hovered");
     
     $(window).scroll(function () { 
         linea();

@@ -25,9 +25,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="robots" content="all">
 
-  <meta http-equiv="cache-control" content="no-cache" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="-1" />
 
   <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css" media="all">
   <link rel="stylesheet" type="text/css" href="css/frontend.css" media="all">
@@ -41,6 +38,7 @@
   <link rel="stylesheet" type="text/css" href="css/phone.css" media="all">
   <link rel="stylesheet" type="text/css" href="css/small.css" media="all">
   <link rel="stylesheet" type="text/css" href="css/printer.css" media="print">
+  <link rel="stylesheet" type="text/css" href="css/main.css" media="all">
 
   <script src="js/jquery.js" type="text/javascript"></script>
   <script src="js/unal.js" type="text/javascript"></script>
@@ -219,7 +217,7 @@
       <div class="navbar-dark mainMenu" id="main_menu_container">
         <!-- Items menú principal -->
         <div class="btn-group">
-          <a href="#" id="btn_linea" class="btn btn-default">LÍNEA TEMPORAL</a>
+          <a href="linea.html" id="btn_linea" class="btn btn-default">LÍNEA TEMPORAL</a>
         </div>
         <div class="btn-group">
           <a href="#" id="btn_catvir" class="btn btn-default">CATÁLOGO VIRTUAL</a>
@@ -438,7 +436,25 @@
   <!-- Contenido -->
   <main class="detalle">
     <div class="breadcrumb-class">Está en:<a href="#" id="inicio" target="_self" title="Inicio">Inicio</a><span id="breadcrumb"></span></div>
-    <div class="contenido-pagina"></div>
+    <div class="contenido-pagina">
+      <!-- Main -->
+      <section class="main">
+        <!-- Banner Principal -->
+        <section class="banner-principal" id="banner_main">
+            <div class="banner" ></div>
+        </section>
+        <!-- Elementos -->
+        <section class="elements">
+            <div class="title-site">
+                <h1>Museo Geociencias</h1>    
+                <div id="main-text">
+                    <h4 id="text">¡Admira Nuestro <span>Cátalogo</span> Virtual!</h4>
+                </div>
+            </div>
+        </section>
+      </section>
+    </div>
+    
   </main>
 
   <!-- Footer Banner -->
@@ -566,8 +582,8 @@
     </div>
   </footer>
 
-
-  <script src="js/index.js"></script>
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
 
 </body>
 </html>
