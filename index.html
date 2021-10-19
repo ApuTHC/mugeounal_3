@@ -25,6 +25,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="robots" content="all">
 
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="-1" />
+
   <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css" media="all">
   <link rel="stylesheet" type="text/css" href="css/frontend.css" media="all">
   <link rel="stylesheet" type="text/css" href="css/accesibilidad.css" media="all">
@@ -89,7 +93,7 @@
         <a href="http://minas.medellin.unal.edu.co/lafacultad/directorio"><img src="img/images/head-footer/icon-telephone.png" alt="">Directorio Facultad de Minas</a>
       </li>
       <li>
-        <a href="http://minas.medellin.unal.edu.co/comunicaciones"> <img src="img/images/head-footer/video_institucional.png" alt=""> Oficina de Comunicaciones</a>
+        <a href="http://minas.medellin.unal.edu.co/comunicaciones"> <img src="img/images/head-footer/video_institucional.png" width="32" height="32" alt=""> Oficina de Comunicaciones</a>
       </li>
       <li>
         <a href="http://identidad.unal.edu.co"><img src="images/icnServIdentidad.png" width="32" height="32" alt="Identidad UNAL">Identidad UNAL</a>
@@ -202,7 +206,7 @@
     <div id="bs-navbar" class="navigation d-none d-md-block">
       <!-- Título del sitio -->
       <div class="site-url" id="subdominio">
-        <a href="http://subdominio.unal.edu.co/">minas.medellin.unal.edu.co/museos/geociencias</a>
+        <a href="http://minas.medellin.unal.edu.co/museos/geociencias">minas.medellin.unal.edu.co/museos/geociencias</a>
       </div>
       <!-- Buscador -->
       <div class="buscador" id="buscador">
@@ -332,113 +336,110 @@
 
   </header>
 
-<!-- defaultpanel -->
-
-<!-- Panel de accesibilidad -->
-<div class="tx-unal-accesibilidad">
   <!-- defaultpanel -->
-  <div
-    id="panel-accesibilidad"
-    style="display:none"
-    class="panel-content container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="row">
-          <div class="col-md-3 ">
-            <h4>Tamaño letra</h4>
-            <button
-              class="boton-panel"
-              id="letra-disminuir"
-              onclick="cambiarTamanioLetra('-')"
-              type="submit"
-              name=""
-              value="">A<sup>-</sup>
-            </button>
-            <button
-              class="boton-panel"
-              id="letra-aumentar"
-              onclick="cambiarTamanioLetra('+')"
-              type="submit"
-              name=""
-              value="">
-              A<sup>+</sup>
-            </button>
-            <input
-              disabled="1"
-              class="letras-porcentaje"
-              id="letter-percent"
-              type="text"
-              name=""
-              value="100%">
-          </div>
-          <div class="col-md-3 ">
-            <h4>Cambiar Contrastes</h4>
-            <button
-              class="boton-panel"
-              id="contraste-1"
-              onclick="cambiarContrastes(1)"
-              type="submit"
-              name=""
-              value="">1
-            </button>
-            <button
-              class="boton-panel"
-              id="contraste-2"
-              onclick="cambiarContrastes(2)"
-              type="submit"
-              name=""
-              value="">2
-            </button>
-            <button
-              class="boton-panel"
-              id="contrate-3"
-              onclick="cambiarContrastes(3)"
-              type="submit"
-              name=""
-              value="">3
-            </button>
-          </div>
-          <div class="col-md-3 ">
-            <h4>Invertir colores</h4>
-            <button
-              class="boton-panel"
-              id="inversor"
-              onclick="invertirColores()"
-              type="submit"
-              name=""
-              value="">Aplicar
-            </button>
-          </div>
-          <div class="col-md-3">
-            <h4>Restablecer ajustes</h4>
-            <button
-              class="boton-panel"
-              id="defaul-config"
-              onclick="defaultConfig()"
-              type="submit"
-              name=""
-              value="">
-              Aplicar
-            </button>
+
+  <!-- Panel de accesibilidad -->
+  <div class="tx-unal-accesibilidad">
+    <!-- defaultpanel -->
+    <div
+      id="panel-accesibilidad"
+      style="display:none"
+      class="panel-content container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-3 ">
+              <h4>Tamaño letra</h4>
+              <button
+                class="boton-panel"
+                id="letra-disminuir"
+                onclick="cambiarTamanioLetra('-')"
+                type="submit"
+                name=""
+                value="">A<sup>-</sup>
+              </button>
+              <button
+                class="boton-panel"
+                id="letra-aumentar"
+                onclick="cambiarTamanioLetra('+')"
+                type="submit"
+                name=""
+                value="">
+                A<sup>+</sup>
+              </button>
+              <input
+                disabled="1"
+                class="letras-porcentaje"
+                id="letter-percent"
+                type="text"
+                name=""
+                value="100%">
+            </div>
+            <div class="col-md-3 ">
+              <h4>Cambiar Contrastes</h4>
+              <button
+                class="boton-panel"
+                id="contraste-1"
+                onclick="cambiarContrastes(1)"
+                type="submit"
+                name=""
+                value="">1
+              </button>
+              <button
+                class="boton-panel"
+                id="contraste-2"
+                onclick="cambiarContrastes(2)"
+                type="submit"
+                name=""
+                value="">2
+              </button>
+              <button
+                class="boton-panel"
+                id="contrate-3"
+                onclick="cambiarContrastes(3)"
+                type="submit"
+                name=""
+                value="">3
+              </button>
+            </div>
+            <div class="col-md-3 ">
+              <h4>Invertir colores</h4>
+              <button
+                class="boton-panel"
+                id="inversor"
+                onclick="invertirColores()"
+                type="submit"
+                name=""
+                value="">Aplicar
+              </button>
+            </div>
+            <div class="col-md-3">
+              <h4>Restablecer ajustes</h4>
+              <button
+                class="boton-panel"
+                id="defaul-config"
+                onclick="defaultConfig()"
+                type="submit"
+                name=""
+                value="">
+                Aplicar
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- /content wrapper for padding -->
+    <div id="pestania-accesibilidad" class="">Panel de Accesibilidad</div>
   </div>
-  <!-- /content wrapper for padding -->
-  <div id="pestania-accesibilidad" class="">Panel de Accesibilidad</div>
-</div>
 
   <!-- /content wrapper for padding -->
 
   <!-- Contenido -->
   <main class="detalle">
-    <div class="breadcrumb-class">Está en:<a href="index.html" target="_self" title="Inicio">Inicio</a>/<span>Línea Temporal</span></div>
+    <div class="breadcrumb-class">Está en:<a href="#" id="inicio" target="_self" title="Inicio">Inicio</a><span id="breadcrumb"></span></div>
     <div class="contenido-pagina"></div>
   </main>
-  <script>
-    $('.contenido-pagina').load('linea.html');
-  </script>
 
   <!-- Footer Banner -->
   <div class="footer-banner container-fluid">
@@ -564,6 +565,9 @@
       </div>
     </div>
   </footer>
+
+
+  <script src="js/index.js"></script>
 
 </body>
 </html>

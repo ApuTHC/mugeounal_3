@@ -1,0 +1,153 @@
+body{
+  background-color: #ddd0;
+  font-size: 16px;
+}
+main .breadcrumb-class {
+  border-bottom: 1px dotted #d5d0d0;
+  color: #ffffff;
+  margin: 0px 0 0 50px;
+  transition: all .4s ease;
+}
+.contenido-pagina{
+  position: absolute;
+  top: -89px;
+  width: 100%;
+  z-index: -1;
+}
+main.detalle {
+	margin: 0px;
+}
+.main {
+  width: 100%;
+  margin-top: 0px;
+  height: 100vh;
+  position: relative;
+}
+
+.main .banner-principal {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  background-image: url("../img/images/35.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -9;
+  transition: all .8s ease;
+}
+
+.main .banner-principal .banner {
+  background: rgba(0, 0, 0, 0.45);
+  width: 100%;
+  height: 100%;
+}
+
+.main .elements {
+  margin-top: 0;
+  text-align: center;
+  transition: all .4s ease;
+}
+
+.main .elements .title-site {
+  display: inline-block;
+  width: 90%;
+  transform: translate(0, 0);
+  text-align: center;
+  transition: all .4s ease;
+  margin-bottom: 15px;
+  margin-top: 200px;
+}
+
+.main .elements .title-site h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 60px;
+  color: #fff1ce;
+  text-shadow: 0 0 0.2em #422613;
+  transition: all .4s ease;
+}
+
+.main .elements .title-site .main-text {
+  height: 1.8rem;
+}
+
+.main .elements .title-site h4 {
+  margin-top: 50px;
+  font-size: 1rem;
+  color: #fff1ce;
+  border-radius: 5%;
+  transition: all .4s ease;
+}
+
+.main .elements .title-site h4 span {
+  text-shadow: 0.11em 0.11em 0.05em #610f0f;
+}
+
+@media (min-width: 350px) {
+  .main .elements .title-site h1 {
+    font-size: 3.5rem;
+  }
+  .main .elements .title-site h4 {
+    font-size: 2.0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  main.detalle {
+    margin: -34px;
+  }
+  main .breadcrumb-class {
+    margin: 34px 0 0 84px;
+  }
+  .main .elements {
+    margin-top: 0px;
+  }
+  .main .elements .title-site {
+    margin-bottom: 30px;
+  }
+  .main .elements .title-site h1 {
+    font-size: 3.8rem;
+    line-height: 90px;
+    margin-top: 65px;
+  }
+  .contenido-pagina {
+    top: -133px;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  main.detalle {
+    margin: -43px;
+  }
+  main .breadcrumb-class {
+    margin: 43px 0 0 93px;
+  }
+  .main .elements .title-site h2 {
+    margin-bottom: 20px;
+    font-size: 2.3rem;
+  }
+  .contenido-pagina {
+    top: -142px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main .elements {
+    margin-top: 105px;
+  }
+  .main .elements .title-site h1 {
+    font-size: 5rem;
+    line-height: 100px;
+    margin-bottom: 30px;
+  }
+  .main .elements .title-site h4 {
+    font-size: 2.1rem;
+  }
+  .contenido-pagina {
+    top: -247px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -86,3 +86,5 @@ function prepare_content_menu(){
     var $conten_profiles = $( "#profiles" ).html();
     $( "#container_profiles_mobil" ).html( $conten_profiles );
 }
+
+

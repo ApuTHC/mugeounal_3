@@ -541,7 +541,7 @@ main .breadcrumb-class a {
 }
 
 main .breadcrumb-class a:hover {
-	color: white;
+	color: #f9ae00;
 }
 
 main.detalle {
@@ -947,4 +947,18 @@ footer .logos a img {
 
   .dropdown-toggle::after {
     color: #f9ae00;
+  }
+
+  body{
+	  overflow-x: hidden;
+  }
+
+  main .breadcrumb-class span{
+    margin: -1px;
+    font-weight: bold;
+  }
+
+  #unalTop .btn-group.hovered{
+    background-color: #666;
+    border-color: #333;
 }
