@@ -1,0 +1,187 @@
+.main {
+  width: 100%;
+  margin-top: 0px;
+  height: 100%;
+}
+
+.main .banner-principal {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  background-image: url("../img/images/escuela.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -9;
+  transition: all .8s ease;
+}
+
+.main .banner-principal .banner {
+  background: rgba(0, 0, 0, 0.45);
+  width: 100%;
+  height: 100%;
+}
+
+.main .elements {
+  margin-top: 275px;
+  text-align: center;
+  transition: all .4s ease;
+  height: 100%;
+}
+
+.main .elements .title-site {
+  display: inline-block;
+  width: 90%;
+  transform: translate(0, 0);
+  text-align: center;
+  transition: all .8s ease;
+}
+
+.main .elements .title-site h1 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 60px;
+  color: #fff1ce;
+  text-shadow: 3px 3px 0em #422613;
+}
+
+.main .elements .primer-text {
+  color: #fff1ce;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.main .elements .primer-text h4 {
+  font-size: 1.5rem;
+}
+
+.main .elements .primer-text img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main .elements .segun-text {
+  width: 100%;
+  color: #fff1ce;
+  margin-bottom: 30px;
+}
+
+.main .elements .segun-text h3 {
+  text-shadow: 3px 3px 0em #422613;
+  font-size: 1.8rem;
+}
+
+.main .elements .segun-text h4 {
+  font-size: 1.5rem;
+}
+
+.main .elements .redes {
+  padding-bottom: 25px;
+}
+
+.main .elements .redes a {
+  text-decoration: none;
+  display: block;
+  font-size: 1.1rem;
+  width: 100%;
+  color: #fff1ce;
+  margin: auto;
+}
+
+.main .elements .redes a:link:hover {
+  color: #422613;
+}
+
+.footer-banner {
+  position: absolute;
+  top: 1200px;
+  transition: all 0.4s ease;
+}
+
+footer {
+  position: absolute;
+  top: 1265px;
+  transition: all 0.4s ease;
+}
+
+@media (min-width: 768px) {
+  .main .elements {
+    margin-top: 75px;
+  }
+  .main .elements .title-site h1 {
+    font-size: 2.8rem;
+  }
+  .main .elements .primer-text h4 {
+    font-size: 2rem;
+  }
+  .main .elements .segun-text h3 {
+    text-shadow: 3px 3px 0em #422613;
+    font-size: 2rem;
+  }
+  .main .elements .segun-text h4 {
+    font-size: 1.7rem;
+  }
+  .main .elements .redes {
+    padding-bottom: 25px;
+  }
+  .main .elements .redes a {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .main .elements {
+    margin-top: 95px;
+  }
+  .main .elements .title-site h1 {
+    font-size: 3rem;
+  }
+  .main .elements .primer-text h4 {
+    font-size: 2rem;
+  }
+  .main .elements .segun-text h3 {
+    text-shadow: 3px 3px 0em #422613;
+    font-size: 2rem;
+  }
+  .main .elements .segun-text h4 {
+    font-size: 1.7rem;
+  }
+  .main .elements .redes {
+    padding-bottom: 25px;
+  }
+  .main .elements .redes a {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main .elements {
+    margin-top: 100px;
+  }
+  .main .elements .title-site h1 {
+    font-size: 3.3rem;
+  }
+  .main .elements .primer-text h4 {
+    font-size: 2.2rem;
+  }
+  .main .elements .segun-text h3 {
+    text-shadow: 3px 3px 0em #422613;
+    font-size: 2.4rem;
+  }
+  .main .elements .segun-text h4 {
+    font-size: 1.9rem;
+  }
+  .main .elements .redes {
+    padding-bottom: 25px;
+  }
+  .main .elements .redes a {
+    font-size: 1.6rem;
+  }
+}
+/*# sourceMappingURL=contacto.css.map */

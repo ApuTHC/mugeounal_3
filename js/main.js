@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    
     $('.btn-group').removeClass("hovered");
+    $('#container_mainmenu_mobil .btn-group').removeClass("hovered");
     var aux=0;
     setInterval(function () {
         if (aux==0) {
@@ -40,5 +40,4 @@ $(document).ready(function () {
             aux=0;
         }
     }, 7000);
-
 });

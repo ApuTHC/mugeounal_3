@@ -5,6 +5,8 @@ $(document).ready(function () {
     $(".lineaindice h4").css('margin-left', '-60px');
     $('.btn-group').removeClass("hovered");
     $('#btn_linea').parent().addClass("hovered");
+    $('#container_mainmenu_mobil .btn-group').removeClass("hovered");
+    $('#container_mainmenu_mobil #btn_linea').parent().addClass("hovered");
     
     $(window).scroll(function () { 
         linea();
