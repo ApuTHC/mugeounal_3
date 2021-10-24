@@ -1,144 +1,452 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]> <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]> <html class="ie8 oldie"> <![endif]-->
+<!--[if IE 9]> <html class="ie9 oldie"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html>
+<!--<![endif]-->
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Esta página contiene una línea temporal que contiene en forma resumida la historia del museo de Geociencias de la Facultad de Minas, además un catálogo virtual de algunas de las muestras de la colección mineralógica del museo"/>
-    <meta name="keywords" content="museo, geociencias, facultad de minas, linea temporal, coleccion mineralogica, minerales, unal, museo de mineralogia"/>
-    <meta name="author" content="Daniel Felipe Correa Zapata" />
-    <!-- build:css css/main.css-->
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/unal.css">
-    <!-- endbuild -->
-    <!-- build:css css/contacto.css-->
-    <link rel="stylesheet" href="css/contacto.css">
-    <!-- endbuild -->
-    <title>Museo Geociencias</title>
+  <meta charset="utf-8">
+  <!--
+  =============================================================================
+  === PLANTILLA DESARROLLADA POR LA OFICINA DE MEDIOS DIGITALES - UNIMEDIOS ===
+  =============================================================================
+  -->
+
+  <!-- base href="http://subdominio.unal.edu.co/" -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+  <meta name="revisit-after" content="1 hour">
+  <meta name="distribution" content="all">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.5, user-scalable=yes">
+  <meta name="expires" content="1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="all">
+  <meta name="description" content="Esta página contiene una línea temporal que contiene en forma resumida la historia del museo de Geociencias de la Facultad de Minas, además un catálogo virtual de algunas de las muestras de la colección mineralógica del museo"/>
+  <meta name="keywords" content="museo, geociencias, facultad de minas, linea temporal, coleccion mineralogica, minerales, unal, museo de mineralogia"/>
+  <meta name="author" content="Daniel Felipe Correa Zapata" />
+
+
+  <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/frontend.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/accesibilidad.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/unal.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/base.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/tablet.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/phone.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/small.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/printer.css" media="print">
+  <link rel="stylesheet" type="text/css" href="css/contacto.css" media="all">
+
+  <script src="js/jquery.js" type="text/javascript"></script>
+  <script src="js/unal.js" type="text/javascript"></script>
+  <script src="js/accesibilidad.js" type="text/javascript"></script>
+  <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+  <!--[if lt IE 9]><script src="js/html5shiv.js"
+  type="text/javascript"></script><![endif]-->
+  <!--[if lt IE 9]><script src="js/respond.js"
+  type="text/javascript"></script><![endif]-->
+
+  <title>Contacto: Museo Geociencias</title>
 </head>
 
 <body>
-    <div>
-        <i class="fas fa-arrow-u"></i>
+  <!-- Servicios -->
+  <div id="services">
+    <div class="indicator d-none d-md-block"></div>
+    <ul class="dropdown-menu" id="servicios">
+      <li>
+        <a href="http://correo.unal.edu.co" target="_blank"><img
+        src="images/icnServEmail.png"
+        width="32"
+        height="32"
+        alt="Correo Electrónico">Correo Electrónico</a>
+      </li>
+      <li>
+        <a href="https://dninfoa.unal.edu.co" target="_blank"><img
+        src="images/icnServSia.png"
+        width="32"
+        height="32"
+        alt="Dirección Nacional de Información Académica">DNINFOA - SIA</a>
+      </li>
+      <li>
+        <a href="http://bibliotecas.unal.edu.co" target="_blank"><img src="images/icnServLibrary.png" width="32" height="32" alt="Biblioteca">Bibliotecas</a>
+      </li>
+      <li>
+        <a href="http://personal.unal.edu.co" target="_blank"><img src="images/icnServCall.png" width="32" height="32" alt="Convocatorias">Convocatorias</a>
+      </li>
+      <li>
+        <a href="https://intranet.medellin.unal.edu.co/my.policy"><img src="img/images/head-footer/icon-intra.png" alt="">Intranet de la Sede</a>
+      </li>
+      <li>
+        <a href="http://minas.medellin.unal.edu.co/centro-editorial"><img src="img/images/head-footer/icon-file.png" alt="">Centro Editorial</a>
+      </li>
+      <li>
+        <a href="http://www.medellin.unal.edu.co/~udprh/"><img src="img/images/head-footer/icon-library.png" alt="">Unidad de Documentación</a>
+      </li>
+      <li>
+        <a href="http://minas.medellin.unal.edu.co/lafacultad/directorio"><img src="img/images/head-footer/icon-telephone.png" alt="">Directorio Facultad de Minas</a>
+      </li>
+      <li>
+        <a href="http://minas.medellin.unal.edu.co/comunicaciones"> <img src="img/images/head-footer/video_institucional.png" width="32" height="32" alt=""> Oficina de Comunicaciones</a>
+      </li>
+      <li>
+        <a href="http://identidad.unal.edu.co"><img src="images/icnServIdentidad.png" width="32" height="32" alt="Identidad UNAL">Identidad UNAL</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Header -->
+  <header id="unalTop">
+    <!-- Logo -->
+    <div class="logo">
+      <a href="https://unal.edu.co">
+        <!--[if (gte IE 9)|!(IE)]><!-->
+        <svg width="93%" height="93%">
+          <image
+          xlink:href="images/escudoUnal.svg"
+          width="100%"
+          height="100%"
+          class="hidden-print"
+          alt="Escudo de la Universidad Nacional de Colombia"/>
+        </svg>
+
+        <!--<![endif]-->
+        <!--[if lt IE 9]> <img src="images/escudoUnal.png" width="93%" height="auto"
+        class="hidden-print"/> <![endif]-->
+        <img src="images/escudoUnal_black.png" class="d-none d-print-block" alt="Escudo de la Universidad Nacional de Colombia"/>
+      </a>
     </div>
-    <!-- Encabezado -->
-    <header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <div class="d-flex row first-menu align-items-center justify-content-between">
-                        <div class="logo ">
-                            <a href="http://unal.edu.co">
-                                <img class="img-fluid" src="img/images/head-footer/escudoUnal.png"
-                                    alt="Escudo de la Universidad Nacional de Colombia"
-                                    title="Escudo de la Universidad Nacional de Colombia">
-                            </a>
-                        </div>
-                        <div class="logo-bg"></div>
-                        <div class="social-links  d-none d-md-block">
-                            <a href="https://twitter.com/fminas" title="Facultad de Minas en Twitter">
-                                <img class="twitter" src="img/images/head-footer/twt.png">
-                            </a>
-                            <a href="https://www.facebook.com/fminas" title="Facultad de Minas en Facebook">
-                                <img class="facebook" src="img/images/head-footer/face.png">
-                            </a>
-                        </div>
-                        <div class="menu-idioma ml-auto  order-1">
-                            <div class="dropdown">
-                                <div class="btn dropdown-toggle" data-toggle="dropdown">ES</div>
-                                <div class="dropdown-menu">
+    <!-- Seal -->
+    <div class="seal">
+      <img
+      class="hidden-print"
+      alt="Escudo de la República de Colombia"
+      src="images/sealColombia.png"
+      width="66"
+      height="66"/>
 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="seal order-2">
-                            <img src="img/images/head-footer/sealColombia.png" alt="Escudo de la República de Colombia"
-                                title="Escudo de la República de Colombia">
-                        </div>
-                    </div>
-                    <div class="row navegation">
-                        <div class="site-url">
-                            <a href="index.html">minas.medellin.unal.edu.co/museos/geociencias</a>
-                        </div>
-                        <div class="buscador ">
-                            <form>
-                                <div class="form-group ">
-                                    <div class="input-group ">
-                                        <input type="text" class="form-control" placeholder="Buscar en la Universidad">
-                                        <div class="input-group-append">
-                                            <span class="input-group-text align-items-center justify-content-center"><i
-                                                    class="fas fa-search"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="navbar mt-1 ml-3 p-0 navbar-expand-md">
-                            <ul class="navbar-nav d-flex">
-                                <li class="navitem "><a href="linea.html" class="nav-link btn alone">Línea Temporal</a>
-                                </li>
-                                <li class="navitem "><a href="catvir.html" class="nav-link btn alone">Catálogo
-                                        Virtual</a>
-                                <li class="navitem "><a href="contacto.html" class="nav-link btn alone">Contacto</a>
-                                </li>
-                                <li class="navitem dropdown">
-                                    <a href="#" class="nav-link btn dropdown-toggle" data-toggle="dropdown">SEDES</a>
-                                    <div class="dropdown-menu p-0 mt-1 sedes">
-                                        <a href="#" class="dropdown-item">Amazonía</a>
-                                        <a href="#" class="dropdown-item">Bogotá</a>
-                                        <a href="#" class="dropdown-item">Caribe</a>
-                                        <a href="#" class="dropdown-item">Manizales</a>
-                                        <a href="#" class="dropdown-item">Medellín</a>
-                                        <a href="#" class="dropdown-item">Orinoquía</a>
-                                        <a href="#" class="dropdown-item">Palmira</a>
-                                        <a href="#" class="dropdown-item">Tumaco</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+      <img
+      class="d-none d-print-block"
+      alt="Escudo de la República de Colombia"
+      src="images/sealColombia_black.png"
+      width="66"
+      height="66"/>
+    </div>
 
-    <!-- Barra Servicios -->
-    <aside class="w-100">
-        <div class="btn-services"></div>
-        <nav id="services" class="m-0 p-0">
-            <ul class="list-unstyled components">
-                <li class="btn"><img src="img/images/head-footer/icnServEmail.png" alt=""><a
-                        href="http://correo.unal.edu.co">Correo institucional</a></li>
-                <li class="btn"><img src="img/images/head-footer/icnServSia.png" alt=""><a
-                        href="https://dninfoa.unal.edu.co/index">DNINFOA - SIA</a></li>
-                <li class="btn"><img src="img/images/head-footer/icnServLibrary.png" alt=""><a
-                        href="http://www.sinab.unal.edu.co">Bibliotecas</a></li>
-                <li class="btn"><img src="img/images/head-footer/icnServCall.png" alt=""><a
-                        href="http://medellin.unal.edu.co/convocatorias">Convocatorias</a></li>
-                <li class="btn"><img src="img/images/head-footer/icon-intra.png" alt=""><a
-                        href="https://intranet.medellin.unal.edu.co/my.policy">Intranet de la Sede</a></li>
-                <li class="btn"><img src="img/images/head-footer/icon-file.png" alt=""><a
-                        href="http://minas.medellin.unal.edu.co/centro-editorial">Centro Editorial</a></li>
-                <li class="btn"><img src="img/images/head-footer/icon-library.png" alt=""><a
-                        href="http://www.medellin.unal.edu.co/~udprh/">Unidad de Documentación</a></li>
-                <li class="btn"><img src="img/images/head-footer/icon-telephone.png" alt=""><a
-                        href="http://minas.medellin.unal.edu.co/lafacultad/directorio">Directorio Facultad de Minas</a>
+    <!-- Menú superior -->
+    <div class="firstMenu d-none d-md-block">
+      <div class="content-fluid">
+        <nav class="navbar navbar-expand-md nav navbar-dark">
+          <!-- perfiles -->
+          <div class=" collapse navbar-collapse navbar-default" id="navbarSupportedContent">
+            <nav id="profiles">
+              <ul class="mr-auto nav justify-content-end">
+              <!-- <ul class="navbar-nav mr-auto nav justify-content-end"> -->
+                <li class="nav-item item_Aspirantes #>">
+                  <a href="http://aspirantes.unal.edu.co">Aspirantes</a>
                 </li>
-                <li class="btn"><img src="img/images/head-footer/video_institucional.png" alt=""><a
-                        href="http://minas.medellin.unal.edu.co/comunicaciones">Oficina de Comunicaciones</a></li>
+                <li class="nav-item item_Estudiantes #>">
+                  <a href="http://estudiantes.unal.edu.co">Estudiantes</a>
+                </li>
+                <li class="nav-item item_Egresados #>">
+                  <a href="http://egresados.unal.edu.co">Egresados</a>
+                </li>
+                <li class="nav-item item_Docentes #>">
+                  <a href="http://docentes.unal.edu.co">Docentes</a>
+                </li>
+                <li class="nav-item item_Administrativos #>">
+                  <a href="http://administrativos.unal.edu.co">Administrativos</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- redes sociales -->
+          <ul class="socialLinks d-none d-md-block">
+            <li >
+            <a
+            href="https://www.facebook.com/UNALOficial"
+            target="_blank"
+            class="facebook"
+            title="Página oficial en Facebook"></a>
+            </li>
+            <li>
+            <a
+            href="https://twitter.com/UNALOficial"
+            target="_blank"
+            class="twitter"
+            title="Cuenta oficial en Twitter"></a>
+            </li>
+            <li>
+            <a
+            href="https://www.youtube.com/channel/UCnE6Zj2llVxcvL5I38B0Ceg"
+            target="_blank"
+            class="youtube"
+            title="Canal oficial de Youtube"></a>
+            </li>
+          </ul>
+          <!-- idioma -->
+          <div class="collapse btn-group languageMenu d-none d-md-block">
+            <div class="btn btn-default dropdown-toggle" data-toggle="dropdown">es<span class="caret"></span></div>
+            <ul class="dropdown-menu dropdown-menu-right">
+              <li><a href="index.html#">EN - English</a></li>
+              <li><a href="index.html#">GUC - Wayuunaiki</a></li>
+              <li><a href="index.html#">PBB - Nasa yuwe</a></li>
             </ul>
+          </div>
         </nav>
-    </aside>
+      </div>
+    </div>
 
-    <!-- Main -->
+    <!-- Menú inferior -->
+    <div id="bs-navbar" class="navigation d-none d-md-block">
+      <!-- Título del sitio -->
+      <div class="site-url" id="subdominio">
+        <a href="http://minas.medellin.unal.edu.co/museos/geociencias">minas.medellin.unal.edu.co/museos/geociencias</a>
+      </div>
+      <!-- Buscador -->
+      <div class="buscador" id="buscador">
+        <div
+        class="gcse-searchbox-only"
+        data-resultsurl="https://unal.edu.co/resultados-de-la-busqueda/"
+        data-newwindow="true"></div>
+      </div>
+      <!-- Main menu -->
+      <div class="navbar-dark mainMenu" id="main_menu_container">
+        <!-- Items menú principal -->
+        <div class="btn-group">
+          <a href="linea.html" id="btn_linea" class="btn btn-default">LÍNEA TEMPORAL</a>
+        </div>
+        <div class="btn-group">
+          <a href="catvir.html" id="btn_catvir" class="btn btn-default">CATÁLOGO VIRTUAL</a>
+        </div>
+        <div class="btn-group">
+          <a href="#" id="btn_contacto" class="btn btn-default">CONTACTO</a>
+        </div>
+        <!-- Sedes -->
+        <div class="btn-group menu_sedes">
+          <div class="btn btn-default dropdown-toggle" data-toggle="dropdown">Sedes<span class="caret"></span></div>
+          <ul class="dropdown-menu" id="sedes">
+            <li>
+              <a class="dropdown-item" href="http://amazonia.unal.edu.co" target="_blank">Amazonia</a>
+              <span class="caret-right"></span></li>
+            <li>
+              <a class="dropdown-item" href="http://bogota.unal.edu.co" target="_blank">Bogotá</a>
+              <span class="caret-right"></span></li>
+            <li>
+              <a class="dropdown-item" href="http://caribe.unal.edu.co" target="_blank">Caribe</a>
+              <span class="caret-right"></span></li>
+            <li>
+              <a class="dropdown-item" href="http://delapaz.unal.edu.co" target="_blank">De La Paz</a>
+              <span class="caret-right"></span></li>
+            <li>
+              <a class="dropdown-item" href="http://www.manizales.unal.edu.co" target="_blank">Manizales</a>
+              <span class="caret-right"></span></li>
+            <li>
+              <a class="dropdown-item" href="http://medellin.unal.edu.co" target="_blank">Medellín</a>
+              <span class="caret-right"></span></li>
+            <li>
+              <a class="dropdown-item" href="http://orinoquia.unal.edu.co" target="_blank">Orinoquia</a>
+              <span class="caret-right"></span></li>
+            <li>
+              <a class="dropdown-item" href="http://www.palmira.unal.edu.co" target="_blank">Palmira</a>
+              <span class="caret-right"></span></li>
+            <li>
+              <a class="dropdown-item" href="http://tumaco-pacifico.unal.edu.co" target="_blank">Tumaco</a>
+              <span class="caret-right"></span></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Servicios label -->
+      <div class="btn-group d-none">
+        <div
+          class="btn btn-default dropdown-toggle"
+          data-toggle="dropdown"
+          id="navbarSupportedContent"
+          data-target="#services">Servicios<span class="caret"></span>
+        </div>
+      </div>
+      <!-- Perfiles -->
+      <div class="btn-group d-none">
+        <div
+          class="btn btn-default dropdown-toggle"
+          data-toggle="dropdown"
+          id="navbarSupportedContent"
+          data-target="#profiles">Perfiles<span class="caret"></span>
+        </div>
+      </div>
+    </div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-light light-blue lighten-4 main_menu">
+      <!-- Navbar brand -->
+      <a class="navbar-brand d-block d-md-none" href="#"></a>
+
+      <!-- Collapse button -->
+      <button
+        class="navbar-toggler collapsed d-block d-md-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbar_content"
+        aria-controls="navbar_content"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        id="btn_hamburguer">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+      </button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbar_content">
+        <!-- subdominio -->
+        <div class="site-url" id="container_subdominio_mobil"></div>
+        <!-- buscador -->
+        <div class="buscador" id="container_buscador_mobil"></div>
+        <!-- main -->
+        <div id="container_mainmenu_mobil"></div>
+        <!-- Sedes -->
+        <div class="btn-group d-block d-md-none hidden-print">
+    			<div class="btn btn-default dropdown-toggle" data-toggle="collapse" data-target="#container_sedes_mobil" aria-controls="container_sedes_mobil">Sedes<span class="caret"> </span>
+    			</div>
+    		</div>
+        <div class="collapse" id="container_sedes_mobil"></div>
+
+        <!-- Servicios -->
+        <div class="btn-group d-block d-md-none hidden-print">
+    			<div class="btn btn-default dropdown-toggle" data-toggle="collapse" data-target="#container_servicios_mobil" aria-controls="container_servicios_mobil">Servicios<span class="caret"> </span>
+    			</div>
+    		</div>
+        <div class="collapse" id="container_servicios_mobil"></div>
+
+
+        <!-- Perfiles -->
+        <div class="btn-group d-block d-md-none hidden-print">
+    			<div class="btn btn-default dropdown-toggle" data-toggle="collapse" data-target="#container_profiles_mobil" aria-controls="container_profiles_mobil">Perfiles<span class="caret"> </span>
+    			</div>
+    		</div>
+        <div class="collapse" id="container_profiles_mobil"></div>
+
+      </div>
+      <!-- Collapsible content -->
+
+    </nav>
+
+  </header>
+
+  <!-- defaultpanel -->
+
+  <!-- Panel de accesibilidad -->
+  <div class="tx-unal-accesibilidad">
+    <!-- defaultpanel -->
+    <div
+      id="panel-accesibilidad"
+      style="display:none"
+      class="panel-content container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-3 ">
+              <h4>Tamaño letra</h4>
+              <button
+                class="boton-panel"
+                id="letra-disminuir"
+                onclick="cambiarTamanioLetra('-')"
+                type="submit"
+                name=""
+                value="">A<sup>-</sup>
+              </button>
+              <button
+                class="boton-panel"
+                id="letra-aumentar"
+                onclick="cambiarTamanioLetra('+')"
+                type="submit"
+                name=""
+                value="">
+                A<sup>+</sup>
+              </button>
+              <input
+                disabled="1"
+                class="letras-porcentaje"
+                id="letter-percent"
+                type="text"
+                name=""
+                value="100%">
+            </div>
+            <div class="col-md-3 ">
+              <h4>Cambiar Contrastes</h4>
+              <button
+                class="boton-panel"
+                id="contraste-1"
+                onclick="cambiarContrastes(1)"
+                type="submit"
+                name=""
+                value="">1
+              </button>
+              <button
+                class="boton-panel"
+                id="contraste-2"
+                onclick="cambiarContrastes(2)"
+                type="submit"
+                name=""
+                value="">2
+              </button>
+              <button
+                class="boton-panel"
+                id="contrate-3"
+                onclick="cambiarContrastes(3)"
+                type="submit"
+                name=""
+                value="">3
+              </button>
+            </div>
+            <div class="col-md-3 ">
+              <h4>Invertir colores</h4>
+              <button
+                class="boton-panel"
+                id="inversor"
+                onclick="invertirColores()"
+                type="submit"
+                name=""
+                value="">Aplicar
+              </button>
+            </div>
+            <div class="col-md-3">
+              <h4>Restablecer ajustes</h4>
+              <button
+                class="boton-panel"
+                id="defaul-config"
+                onclick="defaultConfig()"
+                type="submit"
+                name=""
+                value="">
+                Aplicar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /content wrapper for padding -->
+    <div id="pestania-accesibilidad" class="">Panel de Accesibilidad</div>
+  </div>
+
+  <!-- /content wrapper for padding -->
+  <section class="main-banner">
+    <!-- Banner Principal -->
+    <section class="banner-principal" id="banner">
+        <div class="banner"></div>
+    </section>
+  </section>
+  <!-- Contenido -->
+  <main class="detalle">
+    <div class="breadcrumb-class">Está en:<a href="#" id="inicio" target="_self" title="Inicio">Inicio</a><span id="breadcrumb">/ Contacto</span></div>
+    <div class="contenido-pagina">
+      <!-- Main -->
     <section class="main">
-        <!-- Banner Principal -->
-        <section class="banner-principal" id="banner">
-            <div class="banner"></div>
-        </section>
         <!-- Elementos -->
         <div class="container-fluid">
             <section class="elements row">
@@ -160,7 +468,7 @@
                             class="fas fa-map-marked-alt"></i> Carrera 80 No 65-223 - Campus Robledo, Medellín,
                         Colombia</a>
                     <a><i class="fas fa-phone-square-alt"></i> (+60 4) 425 51 29</a>
-                    <a><i class="far fa-envelope"></i> mmineral_med@unal.edu.co</a>
+                    <a class="link" href="mailto:mmineral_med@unal.edu.co"><i class="far fa-envelope"></i> mmineral_med@unal.edu.co</a>
                     <a class="link" href="https://es-la.facebook.com/pg/MuseodeGeociencias/about/?ref=page_internal"><i
                             class="fab fa-facebook"></i> @MuseodeGeociencias</a>
                     <a class="link" href="https://www.instagram.com/museodegeocienciasun/"><i
@@ -168,151 +476,137 @@
                 </div>
         </div>
     </section>
-    </section>
+    </div>
+    
+  </main>
 
-    <!-- Footer Banner -->
-    <div class="footer-banner container-fluid">
-        <div class="row">
-            <div class="content col-12">
-                <div class="logo1 d-inline my-2 mx-auto mx-md-0">
-                    <img src="img/images/logo1.png" alt="Logo-Museo">
-                </div>
-                <div class="items mx-auto">
-                    <a href="https://es-la.facebook.com/pg/MuseodeGeociencias/about/?ref=page_internal" class="move"><i
-                            class="fab fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/museodegeocienciasun/"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="logo2 d-none d-md-block">
-                    <img src="img/images/logo2.png" alt="Logo-Museo2">
-                </div>
+  <!-- Footer Banner -->
+  <div class="footer-banner container-fluid">
+    <div class="row">
+        <div class="content col-12">
+            <div class="logo1 d-inline my-2 mx-auto mx-md-0">
+                <img src="img/images/logo1.png" alt="Logo-Museo">
+            </div>
+            <div class="items mx-auto">
+                <a href="https://es-la.facebook.com/pg/MuseodeGeociencias/about/?ref=page_internal" class="move"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/museodegeocienciasun/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="logo2 d-none d-md-block">
+                <img src="img/images/logo2.png" alt="Logo-Museo2">
             </div>
         </div>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col-6 col-md-3 col-lg-3">
-                <div class="navbar-">
-                    <div class="btn-group">
-                        <a href="http://www.legal.unal.edu.co" target="_top">Régimen Legal</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://www.unal.edu.co/dnp" target="_top">Talento humano</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://www.unal.edu.co/contratacion/" target="_top">Contratación</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://www.unal.edu.co/dnp/" target="_top">Ofertas de empleo</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://www.unal.edu.co/rendicion_de_cuentas/2012/" target="_top">Rendición de
-                            cuentas</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://docentes.unal.edu.co/concurso-profesoral/" target="_top">Concurso docente</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://www.pagovirtual.unal.edu.co/" target="_top">Pago Virtual</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://www.unal.edu.co/control_interno/index.html" target="_top">Control interno</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://www.simege.unal.edu.co" target="_top">Calidad</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://unal.edu.co/buzon-de-notificaciones/" target="_self">Buzón de notificaciones</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 col-lg-3">
-                <div class="navbar- navbar-2">
-                    <div class="btn-group">
-                        <a href="http://correo.unal.edu.co" target="_top">Correo institucional</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://unal.edu.co/mapa-del-sitio/" target="_self">Mapa del sitio</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://redessociales.unal.edu.co" target="_top">Redes Sociales</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://unal.edu.co/faq/" target="_self">FAQ</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://unal.edu.co/quejas-y-reclamos/" target="_self">Quejas y reclamos</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://unal.edu.co/atencion-en-linea/" target="_self">Atención en línea</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://unal.edu.co/encuesta/" target="_self">Encuesta</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://unal.edu.co/contactenos/" target="_self">Contáctenos</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://www.onp.unal.edu.co" target="_top">Estadísticas</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="http://unal.edu.co/glosario/" target="_self">Glosario</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-4 copy">
-                <div class="bodytext">
-                    <p>
-                        <b>Contacto página web:<br /></b>Dirección<br />Carrera 80 No 65-223 - Campus
-                        Robledo<br />Medellín,&nbsp; Colombia<br />(+57 4) &nbsp;425 50 00
-                    </p>
-                </div>
-                <div class="bodytext bodytext-2">
-                    <p>
-                        © Copyright 2017<br />Algunos derechos reservados.<br />
-                        <a href="mailto:fminascomunica@unal.edu.co"
-                            title="Comuníquese con la Oficina de Comunicaciones de la Facultad de Minas de la Universidad Nacional de Colombia"
-                            class="mail">fminascomunica@unal.edu.co</a><br /><a
-                            href="http://unal.edu.co/acerca-de-este-sitio-web/"
-                            title="Acerca de la web de la Universidad Nacional de Colombia" target="_blank"
-                            class="internal-link">Acerca de este sitio web<br /></a>
-                    </p>
-                    <div class="csc-default">
-                        <p>
-                            Actualización: 14/05/2021</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-2 col-md-2 col-lg-2 logos">
-                <a href="http://www.orgulloun.unal.edu.co"><img alt="Orgullo UN"
-                        src="img/images/head-footer/log_orgullo.png" style="width:94px;height:37px"
-                        title="Orgullo UN"></a>
-                <a href="https://www.sivirtual.gov.co/memoficha-entidad/-/entidad/T0356"><img alt="Tr�mites en l�nea"
-                        src="img/images/head-footer/log_gobiern.png" style="width:94px;height:37px"
-                        title="Programa gobierno en l�nea"></a>
-
-                <a href="http://www.agenciadenoticias.unal.edu.co/inicio.html" class="imgAgencia"><img
-                        alt="Agencia de Noticias" src="img/images/head-footer/log_agenc.png"
-                        style="width:94px;height:37px" title="Agencia de Noticias"></a>
-
-                <a href="http://www.contaduria.gov.co/"><img alt="Contadur�a general de la republica"
-                        src="img/images/head-footer/log_contra.png" style="width:94px;height:37px"
-                        title="Contadur�a general de la republica"></a>
-            </div>
+  <!-- Footer -->
+  <footer class="clear container-fluid">
+    <div class="row">
+      <nav class="col-lg-3 col-md-3 col-sm-4 col-6 gobiernoLinea">
+          <a href="http://www.legal.unal.edu.co" target="_top">Régimen Legal</a>
+          <a href="http://personal.unal.edu.co" target="_top">Talento humano</a>
+          <a href="http://contratacion.unal.edu.co" target="_top">Contratación</a>
+          <a href="http://personal.unal.edu.co" target="_top">Ofertas de empleo</a>
+          <a href="http://launalcuenta.unal.edu.co/" target="_top">Rendición de cuentas</a>
+          <a href="http://docentes.unal.edu.co/concurso-profesoral/" target="_top">Concurso docente</a>
+          <a href="http://www.pagovirtual.unal.edu.co/" target="_top">Pago Virtual</a>
+          <a href="http://controlinterno.unal.edu.co/" target="_top">Control interno</a>
+          <a href="http://siga.unal.edu.co" target="_top">Calidad</a>
+          <a href="http://unal.edu.co/buzon-de-notificaciones/" target="_self">Buzón de notificaciones</a>
+      </nav>
+      <nav class="col-lg-3 col-md-3 col-sm-4 col-6 gobiernoLinea">
+          <a href="http://correo.unal.edu.co" target="_top">Correo institucional</a>
+          <a href="index.html#">Mapa del sitio</a>
+          <a href="http://redessociales.unal.edu.co" target="_top">Redes Sociales</a>
+          <a href="index.html#">FAQ</a>
+          <a href="http://unal.edu.co/quejas-y-reclamos/" target="_self">Quejas y reclamos</a>
+          <a href="http://unal.edu.co/atencion-en-linea/" target="_self">Atención en línea</a>
+          <a href="http://unal.edu.co/encuesta/" target="_self">Encuesta</a>
+          <a href="index.html#">Contáctenos</a>
+          <a href="http://estadisticas.unal.edu.co/" target="_top">Estadísticas</a>
+          <a href="index.html#">Glosario</a>
+      </nav>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-12 footer-info">
+        <div class="row footer-info-spacing">
+          <p class="col-lg-6 col-md-12 col-sm-12 col-6 contacto">
+            <b>Contacto página web:</b><br/>
+            Carrera 80 No 65-223 - Campus Robledo<br/>
+            Bloque M3<br/>
+            Medellín,  Colombia<br/>
+            (+57 4)  425 50 00
+          </p>
+          <p class="col-lg-6 col-md-12 col-sm-12 col-6 derechos">
+            <a href="https://unal.edu.co/fileadmin/user_upload/docs/legal.pdf" target="_blank">&copy; Copyright 2019</a><br/>
+            Algunos derechos reservados.<br/>
+            <a
+            title="Comuníquese con el administrador de este sitio web"
+            href="mailto:fminascomunica@unal.edu.co">fminascomunica@unal.edu.co</a><br/>
+            <a href="index.html#">Acerca de este sitio web</a><br/>
+            Actualización:14/05/21
+          </p>
         </div>
-    </footer>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-12 col-12 logos">
+        <div class="row px-3">
+          <div class="col-lg-6 col-md-12 col-sm-6 col-6 no-padding">
+            <div class="row mx-1">
+              <a class="col-md-12 col-sm-6 col-6" href="http://orgullo.unal.edu.co">
+                <img
+                class="hidden-print"
+                alt="Orgullo UN"
+                src="images/log_orgullo.png"
+                width="78"
+                height="21"/>
+                <img
+                class="d-none d-print-block"
+                alt="Orgullo UN"
+                src="images/log_orgullo_black.png"
+                width="94"
+                height="37"/>
+              </a>
+              <a class="col-md-12 col-sm-6 col-6 imgAgencia"
+                href="http://agenciadenoticias.unal.edu.co">
+                <img
+                class="hidden-print"
+                alt="Agencia de Noticias"
+                src="images/log_agenc.png"
+                width="94"
+                height="25"/>
+                <img
+                class="d-none d-print-block"
+                alt="Agencia de Noticias"
+                src="images/log_agenc_black.png"
+                width="94"
+                height="37"/>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-6 col-6 no-padding">
+            <div class="row mx-1">
+              <a class="col-md-12 col-sm-6 col-6"
+                href="https://www.gov.co/">
+                <img
+                alt="Portal Único del Estado Colombiano"
+                src="images/log_gobiern.png"
+                width="67"
+                height="51"/>
+              </a>
+              <a class="col-md-12 col-sm-6 col-6" href="http://www.contaduria.gov.co/">
+                <img
+                alt="Contaduría General de la República"
+                src="images/log_contra.png"
+                width="67"
+                height="51"/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <!-- Scripts -->
-    <!-- build:js js/main.js-->
-    <script src="js/jquery.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/unal.js"></script>
-    <!-- endbuild -->
-    <!-- build:js js/contacto.js-->
-    <script src="js/contacto.js"></script>
-    <!-- endbuild -->
+  <!-- Scripts -->
+  <script src="js/contacto.js"></script>
+
 </body>
-
 </html>

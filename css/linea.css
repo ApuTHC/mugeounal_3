@@ -16,6 +16,7 @@ main .breadcrumb-class {
 }
 main.detalle {
 	margin: 0;
+  z-index: 0;
 }
 .main {
   width: 100%;

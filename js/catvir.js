@@ -10,6 +10,9 @@ $(document).ready(function () {
     
     function footerTop(params) {
         var aux = $(".catvir-body").offset().top + $(".catvir-body").height()+50;
+        if (aux<700) {
+            aux=1300;
+        }
         $('footer').css('top',aux+65);
         $('.footer-banner').css('top',aux);
     }
