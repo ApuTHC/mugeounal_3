@@ -159,7 +159,7 @@ ul.dropdown-menu a:focus {
 }
 
 #unalTop .btn-group {
-	-webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;
+	-webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; cursor: pointer;
 }
 
 #unalTop .btn-group .btn {
@@ -286,8 +286,9 @@ ul.dropdown-menu a:focus {
 
 #container_profiles_mobil a:hover,
 #container_sedes_mobil li a:hover{
-	color: #000;
+	color: #fff;
 	text-decoration: none;
+	background-color: #666;
 }
 #container_servicios_mobil li:hover{ background-color: #666; }
 #container_servicios_mobil li a:hover{
