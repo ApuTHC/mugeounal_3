@@ -274,7 +274,10 @@ ul.dropdown-menu a:focus {
 	padding: 10px 0px;
 }
 #container_servicios_mobil li{
-	padding: 5px 0px 5px 10px
+	padding: 5px 0px 5px 10px;
+}
+#container_sedes_mobil li{
+	list-style: none;
 }
 #container_servicios_mobil ul li a{
 	display: flex;

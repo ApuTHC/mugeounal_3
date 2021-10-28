@@ -5,7 +5,7 @@ $(document).ready(function () {
     $('#container_mainmenu_mobil #btn_contacto').parent().addClass("hovered");
     setTimeout(function(){ footerTop(); }, 300);
     
-    function footerTop(params) {
+    function footerTop() {
         var aux =$(".banner-principal").height();
         $('footer').css('top',aux);
         $('.footer-banner').css('top',aux-65);
