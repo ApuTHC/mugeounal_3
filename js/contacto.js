@@ -7,8 +7,8 @@ $(document).ready(function () {
     
     function footerTop() {
         var aux =$(".banner-principal").height();
-        $('footer').css('top',aux);
-        $('.footer-banner').css('top',aux-65);
+        $('footer').css('top',aux+65);
+        $('.footer-banner').css('top',aux);
     }
     
     $(window).resize(function () { 
