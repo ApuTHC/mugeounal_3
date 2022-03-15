@@ -437,7 +437,7 @@ ul.dropdown-menu a:focus {
 
 .main_menu .site-url,
 #unalTop .navigation .site-url {
-	background: no-repeat 0 0 url(../images/locDot.png); clear: both; float: left; font-size: 1.72em; height: 17px; line-height: 18px; margin: 12px 10px 10px 250px; padding: 0 0 0 20px;
+	background: no-repeat 0 0 url(../images/locDot.png); clear: both; float: left; font-size: 24px; height: 17px; line-height: 18px; margin: 12px 10px 10px 250px; padding: 0 0 0 20px;
 }
 .main_menu .site-url a,
 #unalTop .navigation .site-url a {
