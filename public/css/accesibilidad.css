@@ -490,13 +490,13 @@ main.home {
 }
 
 .contraste-1 {
-    background-color: red
+    background-color: red !important;
 }
 
 .contraste-2 {
-    background-color: green
+    background-color: green !important;
 }
 
 .contraste-3 {
-    background-color: blue
+    background-color: blue !important;
 }

@@ -441,7 +441,7 @@ ul.dropdown-menu a:focus {
 }
 .main_menu .site-url a,
 #unalTop .navigation .site-url a {
-	color: #f9ae00;
+	color: #fff;
 }
 
 .main_menu .buscador,
@@ -955,6 +955,7 @@ footer .logos a img {
 
   body{
 	  overflow-x: hidden;
+	  z-index: -1;
   }
 
   main .breadcrumb-class span{
@@ -962,7 +963,8 @@ footer .logos a img {
     font-weight: bold;
   }
 
-  #unalTop .btn-group.hovered{
-    background-color: #666;
-    border-color: #333;
+  #unalTop .disabled:hover{
+	background-color: rgba(102, 102, 102, 0);
+    border-color: rgba(51, 51, 51, 0);
+	cursor: default;
 }

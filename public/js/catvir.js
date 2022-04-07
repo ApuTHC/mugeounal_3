@@ -7,6 +7,10 @@ $(document).ready(function () {
     $('#btn_catvir').parent().addClass("hovered");
     $('#container_mainmenu_mobil .btn-group').removeClass("hovered");
     $('#container_mainmenu_mobil #btn_catvir').parent().addClass("hovered");
+    $.each($('a.disabled'), function(index, value) {
+        $(this).css('pointer-events','none');
+        $(this).css('cursor','not-allowed');
+    });
     
     function footerTop(params) {
         var aux = $(".catvir-body").offset().top + $(".catvir-body").height()+50;

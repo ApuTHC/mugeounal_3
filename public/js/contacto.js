@@ -17,6 +17,11 @@ $(document).ready(function () {
     $(window).scroll(function () { 
         footerTop();
     });
+    
+    $.each($('a.disabled'), function(index, value) {
+        $(this).css('pointer-events','none');
+        $(this).css('cursor','not-allowed');
+    });
 
     
 })

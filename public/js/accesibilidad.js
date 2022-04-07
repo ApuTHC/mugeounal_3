@@ -144,11 +144,23 @@ function cambiarContrastes(number) {
 		}) ();  
 	//console.log(convalue);
 	varload();
+    $("body").css('background-color', '#00000000');
+    $("body").removeClass('contraste-1');
+    $("body").removeClass('contraste-2');
+    $("body").removeClass('contraste-3');
+    $(".main .banner-principal .banner").removeClass('contraste-1');
+    $(".main .banner-principal .banner").removeClass('contraste-2');
+    $(".main .banner-principal .banner").removeClass('contraste-3');
+    $(".main .banner-principal .banner").addClass(convalue);
+
 }
 
 function restaurarContraste(){
   var contra = document.getElementsByTagName('body')[0];
   contra.removeAttribute("class");
+  $(".main .banner-principal .banner").removeClass('contraste-1');
+    $(".main .banner-principal .banner").removeClass('contraste-2');
+    $(".main .banner-principal .banner").removeClass('contraste-3'); 
 }
 //Fin de cambiar contrastes
 
